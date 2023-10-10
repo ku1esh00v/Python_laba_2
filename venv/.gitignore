@@ -1,0 +1,266 @@
+.idea/
+# Создано https://www.toptal.com/developers/gitignore/api/python , pycharm
+# Редактировать по адресу https://www.toptal.com/developers/gitignore?templates=python,pycharm
+
+### PyCharm ###
+# Охватывает IDE JetBrains: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio, WebStorm и Rider
+# Ссылка: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
+
+# Пользовательские вещи
+.идея/**/workspace.xml
+.идея/**/tasks.xml
+.идея/**/usage.statistics.xml
+.idea/**/словари
+.idea/**/полка
+
+# AWS User-specific
+.idea/**/aws.xml
+
+# Сгенерированные файлы
+.idea/**/contentModel.xml
+
+# Чувствительные или файлы с высоким оттоком
+.idea/**/Источники данных/
+.idea/**/DataSources.ids
+.idea/**/dataSources.local.xml
+.идея/**/sqlDataSources.xml
+.идея/**/dynamic.xml
+.идея/**/uiDesigner.xml
+.идея/**/dbnavigator.xml
+
+# Gradle
+.idea/**/gradle.xml
+.idea/**/библиотеки
+
+# Gradle и Maven с автоматическим импортом
+# При использовании Gradle или Maven с автоматическим импортом следует исключить файлы модулей,
+# так как они будут воссозданы заново и могут вызвать отток. Раскомментируйте, если используете
+# автоматический импорт.
+# .идея/артефакты
+# .idea/compiler.xml
+# .idea/jarRepositories.xml
+# .idea/modules.xml
+# .idea/*.iml
+# .idea/модули
+# *.iml
+# *.пис
+
+# CMake
+cmake-сборка-*/
+
+# Mongo Explorer plugin
+.idea/**/mongoSettings.xml
+
+# Файловый формат проекта
+*.iws
+
+# IntelliJ
+out/
+
+# mpeltonen/sbt-idea plugin
+.idea_modules/
+
+# Плагин JIRA
+atlassian-ide-plugin.xml
+
+# Курсивный плагин Clojure
+.idea/replstate.xml
+
+# SonarLint плагин
+.идея/sonarlint/
+
+# Crashlytics плагин (для Android Studio и IntelliJ)
+com_crashlytics_export_strings.xml
+crashlytics.properties
+crashlytics-build.properties
+ткань.свойства
+
+# Редактор Rest Client
+.idea/HttpRequests
+
+# Android studio 3.1+ сериализованный файл кэша
+.idea/caches/build_file_checksums.ser
+
+### Патч # PyCharm ###
+# Комментарий Причина: https://github.com/joeblau/gitignore.io/issues/186#issuecomment-215987721
+
+# *.iml
+# modules.xml
+# .idea/misc.xml
+# *.пис
+
+# Плагин Sonarlint
+# https://plugins.jetbrains.com/plugin/7973-sonarlint
+.идея/**/sonarlint/
+
+# Плагин SonarQube
+# https://plugins.jetbrains.com/plugin/7238-sonarqube-community-plugin
+.идея/**/sonarIssues.xml
+
+# Плагин Markdown Navigator
+# https://plugins.jetbrains.com/plugin/7896-markdown-navigator-enhanced
+.идея/**/markdown-navigator.xml
+.идея/**/markdown-navigator-enh.xml
+.idea/**/markdown-навигатор/
+
+# Ошибка создания файла кэша
+# См.
+https://youtrack.jetbrains.com/issue/JBR-2257 .idea/$CACHE_FILE$
+
+# Плагин CodeStream
+# https://plugins.jetbrains.com/plugin/12206-codestream
+.idea/codestream.xml
+
+### Питон ###
+# Байт-скомпилированные / оптимизированные / DLL-файлы
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Распространение / упаковка
+.
+Сборка Python/
+развиваться-яйца/
+dist/
+Загрузки/
+яйца/
+.яйца/
+lib/
+либ64/
+части/
+сдист/
+var/
+колеса/
+поделиться/python-wheels/
+*.egg-info/
+.installed.cfg
+*.яйцо
+МАНИФЕСТ
+
+# PyInstaller
+# Обычно эти файлы записываются скриптом python из шаблона
+# перед PyInstaller строит exe-файл, чтобы ввести в него дату/другую информацию.
+*.манифест
+*.спецификация
+
+# Журналы установщика
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Модульный тест / отчеты о покрытии
+htmlcov/
+.токсин/
+.nox/
+.покрытие
+.покрытие.*
+.кэш
+nosetests.xml
+coverage.xml
+*.обложка
+*.py,обложка
+.гипотеза/
+.pytest_cache/
+обложка/
+
+# Переводы
+*.мо
+*.горшок
+
+# Джанго:
+*.журнал
+local_settings.py
+db.sqlite3
+db.sqlite3-журнал
+
+# Материал колбы:
+экземпляр/
+.webassets-кэш
+
+# Соскабливание:
+.лоскутный
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+.pybuilder/
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+# Для библиотеки или пакета вы можете игнорировать эти файлы, так как код
+# предназначен для работы в нескольких средах; в противном случае проверьте их:
+# .python-версия
+
+# pipenv
+# Согласно pypa/pipenv#598, рекомендуется включить Pipfile.блокировка контроля версий.
+# Однако в случае совместной работы, если у вас есть зависимости или зависимости от конкретной платформы
+# не имея кроссплатформенной поддержки, pipenv может устанавливать зависимости, которые не работают или нет
+# установите все необходимые зависимости.
+#Pipfile.замок
+
+# стихи
+# Аналогично Pipfile.замок, как правило, рекомендуется включать в себя поэзию.блокировка контроля версий.
+# Это особенно рекомендуется для двоичных пакетов для обеспечения воспроизводимости и более
+# обычно игнорируется для библиотек.
+# https://python-poetry.org/docs/basic-usage/#commit-your-poetrylock-file-to-version-control
+#поэзия.замок
+
+# PEP 582; используется, например. github.com/David-OConnor/pyflow
+__пакеты__/
+
+# Сельдерей
+celerybeat-расписание
+celerybeat.pid
+
+# SageMath проанализировал файлы
+*.sage.py
+
+# Среды
+.env
+.венв
+env/
+венв/
+ENV/
+env.bak/
+венв.бак/
+
+# Настройки проекта Spyder
+.spyderproject
+.spyproject
+
+# Настройки веревочного проекта
+.ropeproject
+
+# mkdocs документация
+/сайт
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# pytype статический анализатор типов
+.pytype/
+
+# Символы отладки Cython
+cython_debug/
+
+# PyCharm
+ конкретный шаблон # JetBrains поддерживается в отдельном файле JetBrains.gitignore, который может
+# можно найти по адресу https://github.com/github/gitignore/blob/main/Global/JetBrains.gitignore
+# и может быть добавлен в глобальный gitignore или объединен в этот файл. Для более ядерного
+# option (не рекомендуется) вы можете раскомментировать следующее, чтобы игнорировать всю папку idea.
+#.идея/
